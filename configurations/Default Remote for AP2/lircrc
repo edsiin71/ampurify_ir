@@ -1,0 +1,45 @@
+begin
+prog = irexec
+button = KEY_POWER
+config = /data/plugins/accessory/ampurify_ir/apctrl 2 3
+end
+begin
+prog = irexec
+button = KEY_MENU
+config = /data/plugins/accessory/ampurify_ir/apctrl 2 2
+end
+begin
+prog = irexec
+button = KEY_VOLUMEUP
+config = /data/plugins/accessory/ampurify_ir/apctrl 2 1
+end
+begin
+prog = irexec
+button = KEY_VOLUMEDOWN
+config = /data/plugins/accessory/ampurify_ir/apctrl 2 0
+end
+begin
+prog = irexec
+button = KEY_PLAY
+config = /usr/local/bin/volumio toggle
+end
+begin
+prog = irexec
+button = KEY_MUTE
+config = /usr/local/bin/volumio volume toggle
+end
+begin
+prog = irexec
+button = KEY_PREVIOUS
+config = /usr/local/bin/volumio previous
+end
+begin
+prog = irexec
+button = KEY_NEXT
+config = /usr/local/bin/volumio next
+end
+begin
+prog = irexec
+button = KEY_9
+config = /usr/bin/sudo systemctl poweroff
+end

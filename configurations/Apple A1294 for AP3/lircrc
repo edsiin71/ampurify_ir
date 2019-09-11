@@ -1,0 +1,35 @@
+begin
+prog = irexec
+button = KEY_PLAY
+config = /usr/local/bin/volumio toggle
+end
+begin
+prog = irexec
+button = KEY_ENTER
+config = /data/plugins/accessory/ampurify_ir/apctrl 3 3
+end
+begin
+prog = irexec
+button = KEY_UP
+config = /data/plugins/accessory/ampurify_ir/apctrl 3 1
+end
+begin
+prog = irexec
+button = KEY_DOWN
+config = /data/plugins/accessory/ampurify_ir/apctrl 3 0
+end
+begin
+prog = irexec
+button = KEY_LEFT
+config = /usr/local/bin/volumio previous
+end
+begin
+prog = irexec
+button = KEY_RIGHT
+config = /usr/local/bin/volumio next
+end
+begin
+prog = irexec
+button = KEY_MENU
+config = /data/plugins/accessory/ampurify_ir/apctrl 3 2
+end

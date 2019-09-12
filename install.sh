@@ -13,3 +13,5 @@ touch /etc/lirc/lircrc
 
 #requred to end the plugin install
 echo "plugininstallend"
+
+chmod 755 /data/plugins/accessory/ampurify_ir/apctrl
